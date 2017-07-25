@@ -3,7 +3,7 @@
         <patmos>
             <description>Single issue patmos master</description>
 
-            <frequency Hz="80000000" />
+            <frequency Hz="50000000" />
             <pipeline dual="false" />
             <bus burstLength="4" writeCombine="false" mmu="false" />
             <bootrom app="bootable-cmpmaster"/>
@@ -28,7 +28,7 @@
         <patmos>
             <description>Single issue patmos slave</description>
 
-            <frequency Hz="80000000" />
+            <frequency Hz="50000000" />
             <pipeline dual="false" />
             <bus burstLength="4" writeCombine="false" mmu="false" />
             <bootrom app="bootable-cmpslave"/>
