@@ -391,8 +391,8 @@ class AegeanGen(object):
             top.entity.addPort(IOSignal[1],IOSignal[2],portType,IOSignal[3]) # (name,direction,portType,len(pins))
 
 
-        top.arch.declConstant('pll_mult','natural',1,'8')
-        top.arch.declConstant('pll_div','natural',1,'5')
+        top.arch.declConstant('pll_mult','natural',1,'1')
+        top.arch.declConstant('pll_div','natural',1,'1')
         top.arch.declSignal('clk_int','std_logic')
 
         top.arch.declSignal('int_res','std_logic')

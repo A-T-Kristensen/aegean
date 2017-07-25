@@ -41,8 +41,8 @@ architecture struct of aegean_top_de2_70 is
 
     -- DE2-70: 50 MHz clock => 80 MHz
     -- BeMicro: 16 MHz clock => 25.6 MHz
-    constant pll_mult : natural := 8;
-    constant pll_div  : natural := 5;
+    constant pll_mult : natural := 1;
+    constant pll_div  : natural := 1;
 
     signal clk_int : std_logic;
 
